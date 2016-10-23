@@ -2,7 +2,7 @@ Coding Dojo LCD Digits
 ----------------------
 
 Implement the LCD Digits Kata using Test Driven Development and Pair Programming.
-Two student begin, one being the driver one being the navigator. After every 8 minutes the driver becomes the navigator and another student becomes the driver.
+Two student begin, one being the driver, one being the navigator. After every 8 minutes the driver becomes the navigator and another student becomes the driver.
 
 Preparation
 -----------
@@ -15,7 +15,7 @@ Install [mocha](https://mochajs.org/) and [istanbul](https://github.com/gotwarlo
 Fork the repository, clone it into your workspace and install the dependencies
 
     git clone https://github.com/YOUR_NAME/coding-dojo-lcd-digits.git
-    cd node-testing-workshop
+    cd coding-dojo-lcd-digits
     npm install
 
 Execute `npm test` and `npm run coverage` to verify your setup.
@@ -23,7 +23,7 @@ Execute `npm test` and `npm run coverage` to verify your setup.
 Task
 ----
     
-Create an LCD string representation of an integer value using a 3x3 grid of space, underscore, and pipe characters for each digit. Each digit is shown below (using a dot instead of a space)
+Create an LCD string representation of an integer value using a 3x3 grid of space, underscore, and pipe characters for each digit. Each digit is shown below (using a dot instead of a space).
 
     ._.   ...   ._.   ._.   ...   ._.   ._.   ._.   ._.   ._.
     |.|   ..|   ._|   ._|   |_|   |_.   |_.   ..|   |_|   |_|
