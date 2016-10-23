@@ -1,0 +1,17 @@
+{
+  "name": "coding-dojo-lcd-digits",
+  "version": "0.0.1",
+  "description": "Exercise for learing TDD with the Code Kata \"LCD Digits\"",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  },
+  "keywords": [
+    "workshop", "TDD"
+  ],
+  "author": "Stefanie Lauer",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
